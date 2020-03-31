@@ -4,7 +4,7 @@
     --white: #ffffff;
     --white-translucent: rgba(255, 255, 255, 0.4);
     --shadow: 5px 5px 10px hsla(329, 43%, 10%, 0.7);
-    --background: url('../img/background.jpg');
+    --background: url('../img/background.png');
 }
 
 * {
