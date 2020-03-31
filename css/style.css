@@ -1,0 +1,44 @@
+:root {
+    --accent: #00d3a8;
+    --accent-translucent: rgba(0, 211, 168, 0.4);
+    --white: #ffffff;
+    --white-translucent: rgba(255, 255, 255, 0.4);
+    --shadow: 5px 5px 10px hsla(329, 43%, 10%, 0.7);
+    --background: url('../img/background.jpg');
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: var(--background) 0 / cover fixed;
+}
+
+.overlay {
+    display: flex;
+    flex-direction: row;
+    min-height: 100%;
+}
+
+.overlay.center {
+    justify-content: center;
+}
+
+.floating-box {
+    position: relative;
+    background: var(--white);
+    width: 30rem;
+    height: 10%;
+    padding: 30px;
+    margin: 30px;
+    box-shadow: var(--shadow);
+}
+
