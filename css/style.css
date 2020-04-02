@@ -42,6 +42,10 @@ body {
     box-shadow: var(--shadow);
 }
 
+.floating-box.bottom {
+    margin-top: auto;
+}
+
 .floating-box a {
     text-decoration: none;
     color: var(--accent);
@@ -68,6 +72,10 @@ a .tooltip {
     z-index: 1;
 }
 
+.social a {
+    margin-right: 5px;
+}
+
 a:hover .tooltip {
     visibility: visible;
 }
@@ -79,7 +87,7 @@ a:hover .tooltip {
         margin-bottom: 50%;
     }
 
-    .floating-box .nav a .tooltip {
+    .floating-box a .tooltip {
         position: relative;
         margin-top: 0;
         margin-left: 0;
