@@ -42,6 +42,32 @@ body {
     box-shadow: var(--shadow);
 }
 
-.tooltip {
+.floating-box a {
+    text-decoration: none;
+    color: var(--accent);
+}
 
+a .tooltip {
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 10px;
+    background: var(--accent);
+    color: var(--white);
+    padding: 10px;
+    font-size: 15px;
+    box-shadow: var(--shadow);
+    visibility: hidden;
+    z-index: 1;
+}
+
+a:hover .tooltip {
+    visibility: visible;
+}
+
+@media screen and (max-width: 600px) {
+    .floating-box {
+        text-align: center;
+        margin-top: 50%;
+        margin-bottom: 50%;
+    }
 }
