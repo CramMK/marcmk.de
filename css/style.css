@@ -1,5 +1,6 @@
 :root {
-    --accent: #00d3a8;
+    --accent_green: #00d3a8;
+    --accent: #E14C98;
     --accent-translucent: rgba(0, 211, 168, 0.4);
     --white: #ffffff;
     --white-translucent: rgba(255, 255, 255, 0.4);
