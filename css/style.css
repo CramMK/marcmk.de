@@ -100,4 +100,24 @@ a:hover .tooltip {
         visibility: visible;
         z-index: 0;
     }
+
+    .floating-box .social {
+        float: initial;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .floating-card .page-icons a {
+        padding: 10px 20px 10px 20px;
+        width: 10rem;
+        text-align: center;
+        margin: 10px 0 10px 0;
+        background: var(--pink);
+        color: var(--white);
+    }
+
+    .floating-card .page-icons a i {
+        float: left;
+    }
 }
