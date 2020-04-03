@@ -81,11 +81,18 @@ a:hover .tooltip {
     visibility: visible;
 }
 
+.bg-source a {
+    float: right;
+}
+
 @media screen and (max-width: 600px) {
     .floating-box {
-        text-align: center;
         margin-top: 50%;
         margin-bottom: 50%;
+    }
+
+    .floating-box.index {
+        text-align: center;
     }
 
     .floating-box a .tooltip {
@@ -119,5 +126,13 @@ a:hover .tooltip {
 
     .floating-card .page-icons a i {
         float: left;
+    }
+
+    .bg-source {
+        margin-top: 15px;
+    }
+
+    .bg-source a {
+        float: initial;
     }
 }
