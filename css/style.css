@@ -81,6 +81,11 @@ a:hover .tooltip {
     visibility: visible;
 }
 
+.italic {
+    font-style: italic;
+    color: var(--accent);
+}
+
 .bg-source a {
     float: right;
 }
