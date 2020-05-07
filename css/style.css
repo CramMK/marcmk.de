@@ -39,7 +39,6 @@ body {
     padding: 30px;
     margin: 30px;
     box-shadow: var(--shadow);
-    vertical-align: bottom;
 }
 
 .floating-box a {
@@ -86,10 +85,6 @@ a:hover .tooltip {
     color: var(--accent);
 }
 
-.bg-source a {
-    float: right;
-}
-
 @media screen and (max-width: 600px) {
 
     .floating-box.mobile_center{
@@ -122,13 +117,5 @@ a:hover .tooltip {
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
-
-    .bg-source {
-        margin-top: 15px;
-    }
-
-    .bg-source a {
-        float: initial;
     }
 }
