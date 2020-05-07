@@ -1,11 +1,15 @@
 :root {
-    --accent_green: #00d3a8;
-    --accent: #E14C98;
+    --accent: #00d3a8;
+    --accent_pink: #E14C98;
+    --accent: #B75B6E;
     --accent-translucent: rgba(0, 211, 168, 0.4);
     --white: #ffffff;
     --white-translucent: rgba(255, 255, 255, 0.4);
     --shadow: 5px 5px 10px hsla(329, 43%, 10%, 0.7);
+/*
     --background: url('../img/background1080.png');
+    */
+    --background: url('https://i.redd.it/ct0k3stx74541.jpg');
 }
 
 * {
@@ -41,6 +45,7 @@ body {
     padding: 30px;
     margin: 30px;
     box-shadow: var(--shadow);
+    vertical-align: bottom;
 }
 
 .floating-box.bottom {
@@ -86,7 +91,7 @@ a:hover .tooltip {
     color: var(--accent);
 }
 
-.accent_color {
+.accent{
     font-style: normal;
     color: var(--accent);
 }
@@ -97,8 +102,6 @@ a:hover .tooltip {
 
 @media screen and (max-width: 600px) {
     .floating-box {
-        margin-top: 50%;
-        margin-bottom: 50%;
     }
 
     .floating-box.index {
