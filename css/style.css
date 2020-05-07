@@ -1,14 +1,10 @@
 :root {
-    --accent: #00d3a8;
+    --accent_green: #00d3a8;
     --accent_pink: #E14C98;
     --accent: #B75B6E;
-    --accent-translucent: rgba(0, 211, 168, 0.4);
     --white: #ffffff;
     --white-translucent: rgba(255, 255, 255, 0.4);
     --shadow: 5px 5px 10px hsla(329, 43%, 10%, 0.7);
-/*
-    --background: url('../img/background1080.png');
-    */
     --background: url('https://i.redd.it/ct0k3stx74541.jpg');
 }
 
@@ -31,10 +27,8 @@ body {
     display: flex;
     flex-direction: row;
     min-height: 100%;
-}
-
-.overlay.center {
     justify-content: center;
+    align-items: center;
 }
 
 .floating-box {
@@ -46,10 +40,6 @@ body {
     margin: 30px;
     box-shadow: var(--shadow);
     vertical-align: bottom;
-}
-
-.floating-box.bottom {
-    margin-top: auto;
 }
 
 .floating-box a {
@@ -101,13 +91,12 @@ a:hover .tooltip {
 }
 
 @media screen and (max-width: 600px) {
-    .floating-box {
-    }
 
-    .floating-box.index {
+    .floating-box.mobile_center{
         text-align: center;
     }
 
+    /* shows names on mobile */
     .floating-box a .tooltip {
         position: relative;
         margin-top: 0;
@@ -133,19 +122,6 @@ a:hover .tooltip {
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
-
-    .floating-card .page-icons a {
-        padding: 10px 20px 10px 20px;
-        width: 10rem;
-        text-align: center;
-        margin: 10px 0 10px 0;
-        background: var(--pink);
-        color: var(--white);
-    }
-
-    .floating-card .page-icons a i {
-        float: left;
     }
 
     .bg-source {
