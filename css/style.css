@@ -3,6 +3,7 @@
     --accent_pink: #E14C98;
     --accent: #B75B6E;
     --white: #ffffff;
+    --black: #000000;
     --white-translucent: rgba(255, 255, 255, 0.4);
     --shadow: 5px 5px 10px hsla(329, 43%, 10%, 0.7);
     --background: url('https://i.redd.it/ct0k3stx74541.jpg');
@@ -58,10 +59,6 @@ h1 {
     position: relative;
 }
 
-.nav a{
-    margin-right: 10px;
-}
-
 a .tooltip {
     position: absolute;
     margin-top: -10px;
@@ -75,8 +72,12 @@ a .tooltip {
     z-index: 1;
 }
 
+.nav a{
+    margin-right: 10px;
+}
+
 .social a {
-    margin-right: 5px;
+    margin-right: 10px;
 }
 
 a:hover .tooltip {
@@ -86,6 +87,10 @@ a:hover .tooltip {
 .italic {
     font-style: italic;
     color: var(--accent);
+}
+
+.strike {
+    text-decoration: line-through solid var(--accent);
 }
 
 .accent{
