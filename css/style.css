@@ -23,6 +23,10 @@ body {
     background: var(--background) 0 / cover fixed;
 }
 
+h1 {
+    text-decoration: underline solid var(--accent);
+}
+
 .overlay {
     display: flex;
     flex-direction: row;
@@ -39,6 +43,10 @@ body {
     padding: 30px;
     margin: 30px;
     box-shadow: var(--shadow);
+}
+
+.floating-box.center {
+    text-align: center;
 }
 
 .floating-box a {
