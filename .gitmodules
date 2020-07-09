@@ -1,0 +1,3 @@
+[submodule "newtab-tree"]
+	path = newtab-tree
+	url = git@github.com:CramMK/newtab-tree.git
