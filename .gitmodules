@@ -1,0 +1,3 @@
+[submodule "newtab-tree"]
+	path = newtab-tree
+	url = https://github.com/crammk/newtab-tree

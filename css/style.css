@@ -26,7 +26,6 @@ body {
 
 h1 {
     text-decoration: underline solid var(--accent);
-    font-family: 'Inconsolata', sans-serif;
 }
 
 .overlay {
